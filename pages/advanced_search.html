@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/google-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/advanced_search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Google - Advanced Search</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li>
+                    <a href="../index.html" class="search-option">
+                        <p>Головна</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./google_images.html" class="search-option">
+                        <p>Зображення</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./author.html" class="search-option">
+                        <img src="../img/user-profile-pic.svg" class="user-pic" alt="User Pic">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <h2 class="question">Як це працює в звичайному пошуку?</h2>
+        <ul class="tips">
+            <li>
+                <p class="tips-text">Введіть ключові слова: <span>сніг</span></p>
+            </li>
+            <li>
+                <p class="tips-text">Заключіть словосполучення в лапки: <span>“акваріумні рибки”</span></p>
+            </li>
+            <li>
+                <p class="tips-text">Вставте оператор <span>OR</span> між словами:<br>
+                    <span>золота OR полосата OR клітчата</span></p>
+            </li>
+            <li>
+                <p class="tips-text">Поставте знак мінуса перед словами: <span>-рослини</span></p>
+            </li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="advanced-search-title">Розширений пошук</h1>
+                </div>
+                <div class="col-12">
+                    <form action="https://www.google.com/search" class="advanced-search-form">
+                        <div class="input-label">
+                            <label class="label-foradvance-search-input">Знайти сторінки із «усіма цими словами»:</label>
+                            <input type="text" name="as_q" placeholder="Усі ці слова" class="advance-search-input">
+    
+                        </div>
+
+                        <div class="input-label">
+                            <label class="label-foradvance-search-input">Знайти сторінки з «саме цим словом або фразою»:</label>
+                            <input type="text" name="as_epq" placeholder="Саме це слово або фраза" class="advance-search-input">
+    
+                        </div>
+
+                        <div class="input-label">
+                            <label class="label-foradvance-search-input">Знайти сторінки з «будь-яким із цих слів»:</label>
+                            <input type="text" name="as_oq" placeholder="Будь-яке з цих слів" class="advance-search-input">
+                        </div>
+
+                        <div class="input-label">
+                            <label class="label-foradvance-search-input">Знайти сторінки з «жодне з цих слів»:</label>
+                            <input type="text" name="as_eq" placeholder="Жодне з цих слів" class="advance-search-input">
+                        </div>
+
+
+                        <input type="submit" value="Пошук" class="search-button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="country">Україна</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="work-name">© Самостійна робота 3</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>

@@ -1,0 +1,229 @@
+body::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}
+body::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+.navbar{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0px;
+    gap: 33px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.search-option{
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.search-option p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+.search-option:hover, .search-option:active{
+    color: black;
+    text-decoration: underline;
+}
+
+.search-option p:hover, .search-option p:active{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.user-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.user-pic:hover, .user-pic:active{
+    width: 50px;
+    height: 50px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+
+.country{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.work-name{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.logo{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.search-input{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 34px;
+    padding-left: 26px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttons-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button{
+    background: #F3F3F3;
+    border: 0px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px 10px 16px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 0.2s ease;
+
+}
+
+.feeling-lucky-btn{
+    background: #F3F3F3;
+    border: 0px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px 10px 16px;
+    transition: all 0.2s ease;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+
+.feeling-lucky-link{
+    text-decoration: none;
+}
+
+.feeling-lucky-link p{
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease;
+}
+
+.feeling-lucky-btn:hover, .search-button:hover{
+    background: #00A6ED;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.feeling-lucky-link p:hover, .search-button:hover{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.feeling-lucky-btn:active, .search-button:active{
+    filter: brightness(80%);
+}
